@@ -3,6 +3,7 @@ import java.io.ObjectInput;
 import java.io.ObjectOutput;
 
 public class ShowsWeakerAccess implements Externalizable {
+	// this shows 'Access can be private' -- even though it can't
 	public ShowsWeakerAccess() {
 
 	}

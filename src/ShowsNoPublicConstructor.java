@@ -2,6 +2,7 @@ import java.io.Externalizable;
 import java.io.ObjectInput;
 import java.io.ObjectOutput;
 
+// this shows Externalizable class 'ShowsNoPublicConstructor' has no 'public' no-arg constructor -- correctly
 public class ShowsNoPublicConstructor implements Externalizable {
 	private ShowsNoPublicConstructor() {
 
